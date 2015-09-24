@@ -17,6 +17,7 @@
         this.game.stage.backgroundColor = '#000000' 
         this.game.scale.fullScreenScaleMode = Phaser.ScaleManager.EXACT_FIT;
         //logo.scale.setTo(0.2, 0.2);
+        //logo.scale.setTo(0.2, 0.2);
 
     }
 }
