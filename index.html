@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <title>TypeScript HTML App</title>
+    <script src="//www.gstatic.com/cast/sdk/libs/receiver/2.0.0/cast_receiver.js"></script>
     <link rel="stylesheet" href="app.css" type="text/css" />
     <script src="app.js"></script>
     <script src="phaser.js"></script>
@@ -11,5 +12,15 @@
 <body>
 
     <div id="content"></div>
+    
+    <script>
+        window.mediaElement = document.getElementById('content');
+        window.mediaManager = new cast.receiver.MediaManager(window.mediaElement);
+        window.castReceiverManager = cast.receiver.CastReceiverManager.getInstance();
+        window.castReceiverManager.start();
+    </script>
+
+    <div id="content"></div>
+
 </body>
 </html>
