@@ -1,0 +1,6 @@
+D:\Projects\Chromecast\29Seconds\29Seconds\bin\29Seconds.dll.config
+D:\Projects\Chromecast\29Seconds\29Seconds\bin\29Seconds.dll
+D:\Projects\Chromecast\29Seconds\29Seconds\bin\29Seconds.pdb
+D:\Projects\Chromecast\29Seconds\29Seconds\obj\Debug\29Seconds.csprojResolveAssemblyReference.cache
+D:\Projects\Chromecast\29Seconds\29Seconds\obj\Debug\29Seconds.dll
+D:\Projects\Chromecast\29Seconds\29Seconds\obj\Debug\29Seconds.pdb
